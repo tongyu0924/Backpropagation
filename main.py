@@ -77,7 +77,7 @@ np.random.seed(1)
 costs = []
 parameters = initialize_parameters(X.shape[0], 8, Y.shape[0])
 
-for i in range(0, 5):
+for i in range(5):
 
   A2, caches = forward(X, parameters)
   cost = compute_cost(A2, Y)
